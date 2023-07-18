@@ -45,7 +45,7 @@ const upload = multer({ storage });
 
 
 app.get('/',(req,res)=>{
-  res.send("this is a stack overflow clone API")
+  res.send("this is a social media API")
 
 })
 /* ROUTES WITH FILES */
